@@ -9,31 +9,31 @@ permalink: /items/
 
 ## Login Page
 
-* <label><input type="checkbox" /> Lockdown the login page for repetitive failed login ([Login Lockdown](https://wordpress.org/plugins/login-lockdown/){:target="_blank"} or [iThemes Security](https://wordpress.org/plugins/better-wp-security/){:target="_blank"} )</label>
-* <label><input type="checkbox" /> Activate 2 factor authentication ([Google Authenticator for WordPress](https://wordpress.org/plugins/wp-google-authenticator/){:target="_blank"})</label>
-* <label><input type="checkbox" /> Use email address to login instead of username ([WP Email Login](http://wordpress.org/extend/plugins/wp-email-login/){:target="_blank"})</label>
-* <label><input type="checkbox" /> Rename the URL of your login page ([iThemes Security](https://wordpress.org/plugins/better-wp-security/){:target="_blank"} or directly on .htaccess)</label>
-* <label><input type="checkbox" /> Remove login links from the theme (if there's any)</label>
-* <label><input type="checkbox" /> Use a strong password contaning uppercase, lowercase, numbers, and special characters on all accounts ([password generator](http://passwordsgenerator.net/){:target="_blank"})</label>
-* <label><input type="checkbox" /> Change the passwords regularly</label>
-* <label><input type="checkbox" /> Make the login error messages more generical (user/pass) ([tutorial](https://gist.github.com/zergiocosta/72f87176b236ed0c6e13){:target="_blank"})</label>
+* <input type="checkbox" id="step-1-1" class="step" /><label for="step-1-1"> Lockdown the login page for repetitive failed login ([Login Lockdown](https://wordpress.org/plugins/login-lockdown/){:target="_blank"} or [iThemes Security](https://wordpress.org/plugins/better-wp-security/){:target="_blank"} )</label>
+* <input type="checkbox" id="step-1-2" class="step" /><label for="step-1-2"> Activate 2 factor authentication ([Google Authenticator for WordPress](https://wordpress.org/plugins/wp-google-authenticator/){:target="_blank"})</label>
+* <input type="checkbox" id="step-1-3" class="step" /><label for="step-1-3"> Use email address to login instead of username ([WP Email Login](http://wordpress.org/extend/plugins/wp-email-login/){:target="_blank"})</label>
+* <input type="checkbox" id="step-1-4" class="step" /><label for="step-1-4"> Rename the URL of your login page ([iThemes Security](https://wordpress.org/plugins/better-wp-security/){:target="_blank"} or directly on .htaccess)</label>
+* <input type="checkbox" id="step-1-5" class="step" /><label for="step-1-5"> Remove login links from the theme (if there's any)</label>
+* <input type="checkbox" id="step-1-6" class="step" /><label for="step-1-6"> Use a strong password contaning uppercase, lowercase, numbers, and special characters on all accounts ([password generator](http://passwordsgenerator.net/){:target="_blank"})</label>
+* <input type="checkbox" id="step-1-7" class="step" /><label for="step-1-7"> Change the passwords regularly</label>
+* <input type="checkbox" id="step-1-8" class="step" /><label for="step-1-8"> Make the login error messages more generical (user/pass) ([tutorial](https://gist.github.com/zergiocosta/72f87176b236ed0c6e13){:target="_blank"})</label>
 
 ## Administrative Panel
 
-* <label><input type="checkbox" /> Password protect the folder wp-admin ([unblock only the needed files](https://gist.github.com/rafaelfunchal/f9a41ea72d80600d753a){:target="_blank"})</label>
-* <label><input type="checkbox" /> Keep WordPress up-to-date</label>
-* <label><input type="checkbox" /> Do not create an account with username admin. If there is any, create a new Administrator account and delete the old one</label>
-* <label><input type="checkbox" /> Create an Editor account and use it solely to publish content</label>
-* <label><input type="checkbox" /> Implement SSL for the WordPress admin section</label>
-* <label><input type="checkbox" /> Install any plugins to check file changes ([WP Security Scan](https://wordpress.org/plugins/wp-security-scan/){:target="_blank"}, [Wordfence](https://wordpress.org/plugins/wordfence/){:target="_blank"} or [iThemes Security](https://wordpress.org/plugins/better-wp-security/){:target="_blank"})</label>
-* <label><input type="checkbox" /> Scan the website for viruses, malware, and security breaches</label>
+*  <input type="checkbox" id="step-2-1" class="step" /> <label for="step-2-1"> Password protect the folder wp-admin ([unblock only the needed files](https://gist.github.com/rafaelfunchal/f9a41ea72d80600d753a){:target="_blank"})</label>
+*  <input type="checkbox" id="step-2-2" class="step" /> <label for="step-2-2"> Keep WordPress up-to-date</label>
+*  <input type="checkbox" id="step-2-3" class="step" /> <label for="step-2-3"> Do not create an account with username admin. If there is any, create a new Administrator account and delete the old one</label>
+*  <input type="checkbox" id="step-2-4" class="step" /> <label for="step-2-4"> Create an Editor account and use it solely to publish content</label>
+*  <input type="checkbox" id="step-2-5" class="step" /> <label for="step-2-5"> Implement SSL for the WordPress admin section</label>
+*  <input type="checkbox" id="step-2-6" class="step" /> <label for="step-2-6"> Install any plugins to check file changes ([WP Security Scan](https://wordpress.org/plugins/wp-security-scan/){:target="_blank"}, [Wordfence](https://wordpress.org/plugins/wordfence/){:target="_blank"} or [iThemes Security](https://wordpress.org/plugins/better-wp-security/){:target="_blank"})</label>
+*  <input type="checkbox" id="step-2-7" class="step" /> <label for="step-2-7"> Scan the website for viruses, malware, and security breaches</label>
 
 ## Themes
 
-* <label><input type="checkbox" /> Keep the theme up-to-date</label>
-* <label><input type="checkbox" /> Delete and remove unused themes</label>
-* <label><input type="checkbox" /> Download and use themes only from reputable sources</label>
-* <label><input type="checkbox" /> Remove the WordPress version from the theme ([tutorial](http://www.wpbeginner.com/wp-tutorials/the-right-way-to-remove-wordpress-version-number/){:target="_blank"})</label>
+*  <input type="checkbox" id="step-3-1" class="step" /> <label for="step-3-1">Keep the theme up-to-date</label>
+*  <input type="checkbox" id="step-3-2" class="step" /> <label for="step-3-2">Delete and remove unused themes</label>
+*  <input type="checkbox" id="step-3-3" class="step" /> <label for="step-3-3">Download and use themes only from reputable sources</label>
+*  <input type="checkbox" id="step-3-4" class="step" /> <label for="step-3-4">Remove the WordPress version from the theme ([tutorial](http://www.wpbeginner.com/wp-tutorials/the-right-way-to-remove-wordpress-version-number/){:target="_blank"})</label>
 
 ## Plugins
 
